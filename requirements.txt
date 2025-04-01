@@ -1,7 +1,0 @@
-streamlit
-jieba
-pandas
-gensim
-wordcloud
-matplotlib
-chardet
