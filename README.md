@@ -25,6 +25,8 @@ cd text-analysis-web
 <img width="835" height="905" alt="网站页面前端" src="https://github.com/user-attachments/assets/fdda7003-ae60-42a2-8d7f-150a05cf659a" />
 
 分析结果图片
+
 ![小说文本分析网站分析结果1](https://github.com/user-attachments/assets/bc663618-3ce0-4849-b733-845282776c42)
+
 ![小说文本分析网站分析结果2](https://github.com/user-attachments/assets/4e0234bd-a0e1-4871-98f8-a8bb0e5697d6)
 
