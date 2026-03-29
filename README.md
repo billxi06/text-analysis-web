@@ -1,5 +1,7 @@
 # 小说文本分析系统 (Text Analysis Web)
 
+# 网站url https://watercomputer.streamlit.app/
+
 基于 Streamlit 构建的小说文本深度分析与可视化 Web 应用。用户只需上传 `.txt` 格式的小说文本，系统即可自动进行中文分词，并一键生成词频统计、专属词云图以及基于 LDA 模型的主题关键词提取。
 
 ## 核心功能
