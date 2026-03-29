@@ -13,8 +13,11 @@
 
 # 技术栈
 1.Web 框架：Streamlit
+
 2.自然语言处理：Jieba (分词), Gensim (LDA 主题模型)
+
 3.数据处理与可视化：Pandas, WordCloud, Matplotlib
+
 4.其他工具：Chardet (编码检测)
 
 # 快速开始
