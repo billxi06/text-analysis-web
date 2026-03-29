@@ -26,7 +26,7 @@
 
 bash
 
-git clone [https://github.com/billxi06/text-analysis-web.git](https://github.com/billxi06/text-analysis-web.git)
+git clone [https://github.com/bailixx/text-analysis-web.git](https://github.com/bailixx/text-analysis-web.git)
 
 cd text-analysis-web
 
