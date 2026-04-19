@@ -60,13 +60,26 @@ def generate_wordcloud(text):
         st.error(f"词云生成失败: {str(e)}")
 
 def safe_decode(raw_data):
+    # 1. 定义最常见的中文文本编码优先级，gb18030 兼容性最强
+    encodings = ['utf-8', 'gb18030', 'gbk', 'gb2312']
+    
+    # 2. 依次强制尝试解码
+    for enc in encodings:
+        try:
+            # 只要没有抛出异常，说明编码匹配对了，立刻返回真实文本
+            return raw_data.decode(enc)
+        except UnicodeDecodeError:
+            # 报错了说明编码不对，继续尝试下一个
+            continue
+            
+    # 3. 只有在上面所有常规编码都失败的情况下，才让 chardet 出来兜底
     try:
         detection = chardet.detect(raw_data)
         encoding = detection['encoding'] or 'utf-8'
         return raw_data.decode(encoding, errors='replace')
-    except Exception as e:
+    except Exception:
         return raw_data.decode('utf-8', errors='replace')
-
+    
 def analyze_relationships(text, target_character, top_n=15):
     """改进版关系分析函数"""
     jieba.add_word(target_character)
