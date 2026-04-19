@@ -42,3 +42,6 @@ cd text-analysis-web
 
 ![小说文本分析网站分析结果2](https://github.com/user-attachments/assets/4e0234bd-a0e1-4871-98f8-a8bb0e5697d6)
 
+<img width="730" height="1040" alt="image" src="https://github.com/user-attachments/assets/c6c3d6ba-70e8-4042-bd6c-0f109b5d34f4" />
+
+
